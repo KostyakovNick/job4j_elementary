@@ -20,8 +20,8 @@ public class SwitchArrayTest {
     @Test
     public void whenSwap1to2() {
         int[] input = {1, 2, 3, 4, 5, 6};
-        int source = (input.length - 1) / 2;
-        int dest = source + 1;
+        int source = 2;
+        int dest = 3;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {1, 2, 4, 3, 5, 6};
         Assert.assertArrayEquals(expected, result);
