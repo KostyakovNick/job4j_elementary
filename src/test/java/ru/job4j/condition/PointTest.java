@@ -16,7 +16,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to22then2() {
+    public void when00to22then2dot83() {
         Point a = new Point(0, 0);
         Point b = new Point(2, 2);
         double expected = 2.83;
@@ -24,7 +24,7 @@ public class PointTest {
     }
 
     @Test
-    public void when10to22then2() {
+    public void when10to22then2dot24() {
         Point a = new Point(1, 0);
         Point b = new Point(2, 2);
         double expected = 2.24;
